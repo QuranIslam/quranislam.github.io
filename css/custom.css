@@ -1,0 +1,120 @@
+
+.search-keys{
+	color:red;
+}
+
+.ref{color:#ce7d04;margin-top:10px;}
+.aaya{color:var(--default_text_light) !important;}
+.sora{color:#b3112e;}
+.hadith{color:#00a4dd !important;}
+
+.aaya:before{
+	content: url(r-bracket.png);
+	margin-left:4px;
+	position: relative;
+    top: 9px;
+}
+
+.aaya:after{
+	content: url(l-bracket.png);
+	margin-right:4px;
+	position: relative;
+    top: 9px;
+}
+
+.title-1, .title-1 a.ilink {
+	color: #800000;
+	font-size: 16pt;
+	font-weight: bold;
+	padding-top: 15px;
+}
+.title-2, .title-2 a.ilink {
+	font-weight: bold;
+	padding-top: 12px;
+}
+
+.tooltip {
+    display: block !important;
+    font-size: 13px !important;
+    font-family: Tahoma !important;
+	text-align: justify !important;
+	line-height: 170% !important;
+	font-weight: normal !important;
+}
+
+.tooltip-inner {
+    max-width: 200px;
+    padding: .25rem .5rem;
+    color: #4B7C3D!important;
+    text-align: center;
+    background-color: #EEFBEA!important;
+    border-radius: .25rem;
+    border: 1px solid rgba(0,0,0,.2);
+}
+
+.tooltip.show {
+    opacity: 1 !important;
+}
+
+.Tips2{
+	 cursor: pointer;
+	 font-size:16px;
+	 color: #555 !important;
+}
+
+.aaya{
+	font-family: Amiri;
+}
+
+.amiri_custom_content{
+	text-align: justify;
+}
+
+.amiri_custom_content h5{
+	line-height: 1.8;
+}
+
+.select-toggle-all{
+	display: none !important;
+}
+
+.amiri {
+	font-family: 'Amiri' !important ;
+}
+
+@media (min-width: 768px){
+	#modal1 .modal-dialog, #modal2 .modal-dialog {
+		width: 400px;
+		padding-top: 125px;
+	}   
+}
+
+#modal1 .panel-body * , #modal2 .panel-body * {
+	color: #3e6a13;
+	text-align: center !important;
+}
+
+.ustaz{
+	color: #ae8422 !important;
+	margin-bottom: 10px;
+	margin-top: -9px;
+	text-align: center !important;
+	font-size: 13pt !important;
+}
+
+label.mb-0{
+	font-weight: bold;
+}
+
+#rawi-name{
+    display: block;
+    border: none;
+    border-bottom: 1px solid #ced4da;
+    width: 100%;
+    background-color: transparent;
+}
+
+a.ilink {
+	text-decoration: none;
+	border-bottom: 1px dotted red;
+}
