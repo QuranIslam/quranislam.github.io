@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /Ayat
+
+Sitemap: https://quranislam.github.io/sitemap.xml
